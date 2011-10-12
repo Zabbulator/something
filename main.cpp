@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 
   // Fenstertitel setzen:
   // Der erste Text steht in der Titelleiste des Fensters und der zweite in der Taskleiste.
-  SDL_WM_SetCaption( "Tomprogs Game Tutorials - First Try", "Tomprogs - First Try" );
+  SDL_WM_SetCaption( "Ein Fenster", "Fensterlein" );
 
   // Doublebuffering aktivieren
   SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 );
