@@ -2,6 +2,9 @@
 #include "SDL.h"        // SDL-Header
 #include "SDL_opengl.h" // Bindet plattformabhängig die richtigen Header ein
 
+using std::cout;
+using std::endl;
+
 // Die main Funktion muss unter Windows unbedingt
 // diese Form haben, da es ansonsten zu einem
 // Linkerfehler kommen würde.
